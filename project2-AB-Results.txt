@@ -1,0 +1,576 @@
+swaroop@swaroop:~/Fall2019/Scalable/cs291a_project2_template$ ab -t 8 -c 1 https://swaroopsrinivasa-fi6eeq56la-uc.a.run.app/files/
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking swaroopsrinivasa-fi6eeq56la-uc.a.run.app (be patient)
+Finished 21 requests
+
+
+Server Software:        Google
+Server Hostname:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-CHACHA20-POLY1305,2048,256
+TLS Server Name:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+
+Document Path:          /files/
+Document Length:        2078 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.189 seconds
+Complete requests:      21
+Failed requests:        0
+Total transferred:      51017 bytes
+HTML transferred:       43638 bytes
+Requests per second:    2.56 [#/sec] (mean)
+Time per request:       389.976 [ms] (mean)
+Time per request:       389.976 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.08 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       46   99 105.2     52     416
+Processing:   108  291 482.5    157    2356
+Waiting:      108  281 478.8    157    2356
+Total:        182  390 478.5    240    2407
+
+Percentage of the requests served within a certain time (ms)
+  50%    226
+  66%    294
+  75%    319
+  80%    409
+  90%    525
+  95%    614
+  98%   2407
+  99%   2407
+ 100%   2407 (longest request)
+swaroop@swaroop:~/Fall2019/Scalable/cs291a_project2_template$ ab -t 8 -c 1 https://swaroopsrinivasa-fi6eeq56la-uc.a.run.app/files/
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking swaroopsrinivasa-fi6eeq56la-uc.a.run.app (be patient)
+Finished 23 requests
+
+
+Server Software:        Google
+Server Hostname:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-CHACHA20-POLY1305,2048,256
+TLS Server Name:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+
+Document Path:          /files/
+Document Length:        2078 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.017 seconds
+Complete requests:      23
+Failed requests:        0
+Total transferred:      55871 bytes
+HTML transferred:       47794 bytes
+Requests per second:    2.87 [#/sec] (mean)
+Time per request:       348.587 [ms] (mean)
+Time per request:       348.587 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.81 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       46  182 238.4     63    1072
+Processing:   101  163  56.7    154     316
+Waiting:      101  162  56.5    154     316
+Total:        152  345 235.0    264    1218
+
+Percentage of the requests served within a certain time (ms)
+  50%    257
+  66%    360
+  75%    409
+  80%    509
+  90%    559
+  95%    627
+  98%   1218
+  99%   1218
+ 100%   1218 (longest request)
+
+
+
+swaroop@swaroop:~/Fall2019/Scalable/cs291a_project2_template$ ab -t 8 -c 4 https://swaroopsrinivasa-fi6eeq56la-uc.a.run.app/files/
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking swaroopsrinivasa-fi6eeq56la-uc.a.run.app (be patient)
+Finished 87 requests
+
+
+Server Software:        Google
+Server Hostname:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-CHACHA20-POLY1305,2048,256
+TLS Server Name:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+
+Document Path:          /files/
+Document Length:        2078 bytes
+
+Concurrency Level:      4
+Time taken for tests:   8.513 seconds
+Complete requests:      87
+Failed requests:        0
+Total transferred:      211343 bytes
+HTML transferred:       180786 bytes
+Requests per second:    10.22 [#/sec] (mean)
+Time per request:       391.393 [ms] (mean)
+Time per request:       97.848 [ms] (mean, across all concurrent requests)
+Transfer rate:          24.24 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       44   78  75.4     52     452
+Processing:    98  253 567.6    124    3695
+Waiting:       98  248 567.8    123    3694
+Total:        148  332 584.7    183    3756
+
+Percentage of the requests served within a certain time (ms)
+  50%    183
+  66%    200
+  75%    218
+  80%    286
+  90%    389
+  95%    475
+  98%   3182
+  99%   3756
+ 100%   3756 (longest request)
+swaroop@swaroop:~/Fall2019/Scalable/cs291a_project2_template$ ab -t 8 -c 4 https://swaroopsrinivasa-fi6eeq56la-uc.a.run.app/files/
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking swaroopsrinivasa-fi6eeq56la-uc.a.run.app (be patient)
+Finished 128 requests
+
+
+Server Software:        Google
+Server Hostname:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-CHACHA20-POLY1305,2048,256
+TLS Server Name:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+
+Document Path:          /files/
+Document Length:        2078 bytes
+
+Concurrency Level:      4
+Time taken for tests:   8.049 seconds
+Complete requests:      128
+Failed requests:        0
+Total transferred:      310916 bytes
+HTML transferred:       265984 bytes
+Requests per second:    15.90 [#/sec] (mean)
+Time per request:       251.523 [ms] (mean)
+Time per request:       62.881 [ms] (mean, across all concurrent requests)
+Transfer rate:          37.72 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       45  110 158.8     51    1099
+Processing:    95  139  56.1    122     445
+Waiting:       95  135  45.9    121     352
+Total:        147  249 167.6    177    1229
+
+Percentage of the requests served within a certain time (ms)
+  50%    177
+  66%    196
+  75%    260
+  80%    376
+  90%    430
+  95%    510
+  98%    670
+  99%   1207
+ 100%   1229 (longest request)
+
+
+
+
+swaroop@swaroop:~/Fall2019/Scalable/cs291a_project2_template$ ab -t 8 -c 16 https://swaroopsrinivasa-fi6eeq56la-uc.a.run.app/files/
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking swaroopsrinivasa-fi6eeq56la-uc.a.run.app (be patient)
+Finished 257 requests
+
+
+Server Software:        Google
+Server Hostname:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-CHACHA20-POLY1305,2048,256
+TLS Server Name:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+
+Document Path:          /files/
+Document Length:        2145 bytes
+
+Concurrency Level:      16
+Time taken for tests:   8.001 seconds
+Complete requests:      257
+Failed requests:        0
+Total transferred:      641476 bytes
+HTML transferred:       551265 bytes
+Requests per second:    32.12 [#/sec] (mean)
+Time per request:       498.103 [ms] (mean)
+Time per request:       31.131 [ms] (mean, across all concurrent requests)
+Transfer rate:          78.30 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       44  168 260.3     53    1587
+Processing:   120  308  99.1    302     742
+Waiting:      119  308  98.8    302     741
+Total:        179  477 271.3    397    1810
+
+Percentage of the requests served within a certain time (ms)
+  50%    396
+  66%    461
+  75%    534
+  80%    578
+  90%    763
+  95%   1123
+  98%   1464
+  99%   1575
+ 100%   1810 (longest request)
+swaroop@swaroop:~/Fall2019/Scalable/cs291a_project2_template$ ab -t 8 -c 16 https://swaroopsrinivasa-fi6eeq56la-uc.a.run.app/files/
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking swaroopsrinivasa-fi6eeq56la-uc.a.run.app (be patient)
+Finished 288 requests
+
+
+Server Software:        Google
+Server Hostname:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-CHACHA20-POLY1305,2048,256
+TLS Server Name:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+
+Document Path:          /files/
+Document Length:        2145 bytes
+
+Concurrency Level:      16
+Time taken for tests:   8.010 seconds
+Complete requests:      288
+Failed requests:        0
+Total transferred:      718852 bytes
+HTML transferred:       617760 bytes
+Requests per second:    35.96 [#/sec] (mean)
+Time per request:       444.988 [ms] (mean)
+Time per request:       27.812 [ms] (mean, across all concurrent requests)
+Transfer rate:          87.64 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       45  105 240.3     51    3277
+Processing:   110  327 104.2    322     996
+Waiting:      110  322  95.9    321     996
+Total:        166  432 256.0    394    3526
+
+Percentage of the requests served within a certain time (ms)
+  50%    394
+  66%    432
+  75%    461
+  80%    479
+  90%    580
+  95%    701
+  98%   1346
+  99%   1354
+ 100%   3526 (longest request)
+
+
+swaroop@swaroop:~/Fall2019/Scalable/cs291a_project2_template$ ab -t 8 -c 64 https://swaroopsrinivasa-fi6eeq56la-uc.a.run.app/files/
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking swaroopsrinivasa-fi6eeq56la-uc.a.run.app (be patient)
+Finished 296 requests
+
+
+Server Software:        Google
+Server Hostname:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-CHACHA20-POLY1305,2048,256
+TLS Server Name:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+
+Document Path:          /files/
+Document Length:        2212 bytes
+
+Concurrency Level:      64
+Time taken for tests:   8.000 seconds
+Complete requests:      296
+Failed requests:        0
+Total transferred:      758728 bytes
+HTML transferred:       654752 bytes
+Requests per second:    37.00 [#/sec] (mean)
+Time per request:       1729.762 [ms] (mean)
+Time per request:       27.028 [ms] (mean, across all concurrent requests)
+Transfer rate:          92.62 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       45  111 167.9     54    1268
+Processing:    97 1144 1344.8    703    6182
+Waiting:       96 1142 1343.4    703    6181
+Total:        146 1254 1340.3    800    6267
+
+Percentage of the requests served within a certain time (ms)
+  50%    800
+  66%    931
+  75%   1207
+  80%   1474
+  90%   3806
+  95%   4167
+  98%   4946
+  99%   5660
+ 100%   6267 (longest request)
+swaroop@swaroop:~/Fall2019/Scalable/cs291a_project2_template$ ab -t 8 -c 64 https://swaroopsrinivasa-fi6eeq56la-uc.a.run.app/files/
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking swaroopsrinivasa-fi6eeq56la-uc.a.run.app (be patient)
+Finished 332 requests
+
+
+Server Software:        Google
+Server Hostname:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-CHACHA20-POLY1305,2048,256
+TLS Server Name:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+
+Document Path:          /files/
+Document Length:        2212 bytes
+
+Concurrency Level:      64
+Time taken for tests:   8.001 seconds
+Complete requests:      332
+Failed requests:        58
+   (Connect: 0, Receive: 0, Length: 58, Exceptions: 0)
+Non-2xx responses:      58
+Total transferred:      741028 bytes
+HTML transferred:       624822 bytes
+Requests per second:    41.50 [#/sec] (mean)
+Time per request:       1542.284 [ms] (mean)
+Time per request:       24.098 [ms] (mean, across all concurrent requests)
+Transfer rate:          90.45 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       46  109 153.2     60    1079
+Processing:    96 1400 1402.9   1294    4688
+Waiting:       96 1398 1402.9   1294    4687
+Total:        147 1510 1402.8   1361    4767
+
+Percentage of the requests served within a certain time (ms)
+  50%   1361
+  66%   1856
+  75%   2041
+  80%   2290
+  90%   4003
+  95%   4437
+  98%   4622
+  99%   4679
+ 100%   4767 (longest request)
+
+
+
+
+swaroop@swaroop:~/Fall2019/Scalable/cs291a_project2_template$ ab -t 8 -c 256 https://swaroopsrinivasa-fi6eeq56la-uc.a.run.app/files/
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking swaroopsrinivasa-fi6eeq56la-uc.a.run.app (be patient)
+Finished 3963 requests
+
+
+Server Software:        Google
+Server Hostname:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-CHACHA20-POLY1305,2048,256
+TLS Server Name:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+
+Document Path:          /files/
+Document Length:        2212 bytes
+
+Concurrency Level:      256
+Time taken for tests:   8.002 seconds
+Complete requests:      3963
+Failed requests:        1
+   (Connect: 0, Receive: 0, Length: 1, Exceptions: 0)
+Non-2xx responses:      1
+Total transferred:      10164444 bytes
+HTML transferred:       8771603 bytes
+Requests per second:    495.22 [#/sec] (mean)
+Time per request:       516.941 [ms] (mean)
+Time per request:       2.019 [ms] (mean, across all concurrent requests)
+Transfer rate:          1240.39 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       45  163 297.1     54    4047
+Processing:    90  256 400.0    154    4123
+Waiting:       89  250 397.7    152    4118
+Total:        139  418 532.3    229    4694
+
+Percentage of the requests served within a certain time (ms)
+  50%    229
+  66%    310
+  75%    400
+  80%    450
+  90%    830
+  95%   1336
+  98%   2574
+  99%   3208
+ 100%   4694 (longest request)
+swaroop@swaroop:~/Fall2019/Scalable/cs291a_project2_template$ ab -t 8 -c 256 https://swaroopsrinivasa-fi6eeq56la-uc.a.run.app/files/
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking swaroopsrinivasa-fi6eeq56la-uc.a.run.app (be patient)
+Finished 1111 requests
+
+
+Server Software:        Google
+Server Hostname:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-CHACHA20-POLY1305,2048,256
+TLS Server Name:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+
+Document Path:          /files/
+Document Length:        2212 bytes
+
+Concurrency Level:      256
+Time taken for tests:   8.005 seconds
+Complete requests:      1111
+Failed requests:        148
+   (Connect: 0, Receive: 0, Length: 148, Exceptions: 0)
+Non-2xx responses:      148
+Total transferred:      2566909 bytes
+HTML transferred:       2177960 bytes
+Requests per second:    138.80 [#/sec] (mean)
+Time per request:       1844.438 [ms] (mean)
+Time per request:       7.205 [ms] (mean, across all concurrent requests)
+Transfer rate:          313.16 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       45  105 161.4     56    3082
+Processing:   111 1465 1242.6   1046    5869
+Waiting:      110 1462 1242.2   1044    5861
+Total:        161 1569 1259.1   1137    5999
+
+Percentage of the requests served within a certain time (ms)
+  50%   1137
+  66%   1501
+  75%   2048
+  80%   2375
+  90%   3700
+  95%   4513
+  98%   5068
+  99%   5264
+ 100%   5999 (longest request)
+swaroop@swaroop:~/Fall2019/Scalable/cs291a_project2_template$ ab -t 8 -c 256 https://swaroopsrinivasa-fi6eeq56la-uc.a.run.app/files/
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking swaroopsrinivasa-fi6eeq56la-uc.a.run.app (be patient)
+Finished 1600 requests
+
+
+Server Software:        Google
+Server Hostname:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-CHACHA20-POLY1305,2048,256
+TLS Server Name:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+
+Document Path:          /files/
+Document Length:        2212 bytes
+
+Concurrency Level:      256
+Time taken for tests:   8.001 seconds
+Complete requests:      1600
+Failed requests:        150
+   (Connect: 0, Receive: 0, Length: 150, Exceptions: 0)
+Non-2xx responses:      150
+Total transferred:      3818991 bytes
+HTML transferred:       3258062 bytes
+Requests per second:    199.98 [#/sec] (mean)
+Time per request:       1280.100 [ms] (mean)
+Time per request:       5.000 [ms] (mean, across all concurrent requests)
+Transfer rate:          466.15 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       44  106 154.6     54    1383
+Processing:    92  987 1279.4    430    6043
+Waiting:       92  983 1280.4    427    6043
+Total:        143 1092 1281.5    536    6162
+
+Percentage of the requests served within a certain time (ms)
+  50%    536
+  66%    807
+  75%   1362
+  80%   1705
+  90%   2921
+  95%   4454
+  98%   5041
+  99%   5202
+ 100%   6162 (longest request)
+swaroop@swaroop:~/Fall2019/Scalable/cs291a_project2_template$ ab -t 8 -c 256 https://swaroopsrinivasa-fi6eeq56la-uc.a.run.app/files/
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking swaroopsrinivasa-fi6eeq56la-uc.a.run.app (be patient)
+Finished 1789 requests
+
+
+Server Software:        Google
+Server Hostname:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-CHACHA20-POLY1305,2048,256
+TLS Server Name:        swaroopsrinivasa-fi6eeq56la-uc.a.run.app
+
+Document Path:          /files/
+Document Length:        2212 bytes
+
+Concurrency Level:      256
+Time taken for tests:   8.002 seconds
+Complete requests:      1789
+Failed requests:        81
+   (Connect: 0, Receive: 0, Length: 81, Exceptions: 0)
+Non-2xx responses:      81
+Total transferred:      4435575 bytes
+HTML transferred:       3807473 bytes
+Requests per second:    223.57 [#/sec] (mean)
+Time per request:       1145.058 [ms] (mean)
+Time per request:       4.473 [ms] (mean, across all concurrent requests)
+Transfer rate:          541.32 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       43  180 248.2     56    2216
+Processing:    92  741 1026.6    278    5671
+Waiting:       92  737 1025.7    275    5671
+Total:        139  921 1100.3    417    6390
+
+Percentage of the requests served within a certain time (ms)
+  50%    417
+  66%    740
+  75%   1075
+  80%   1306
+  90%   2458
+  95%   3253
+  98%   4714
+  99%   5250
+ 100%   6390 (longest request)
+
