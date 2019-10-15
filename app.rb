@@ -85,9 +85,11 @@ get '/files/' do
   fileList = []
   files.each do |file|
     hexFileName = file.name
-    hexFileName.gsub!('/','')
-    if validHex(hexFileName)
-      fileList.append(hexFileName)
+    if hexFileName[2] == "/" && hexFileName[5] == "/"
+      hexFileName.gsub!('/','')
+      if validHex(hexFileName)
+        fileList.append(hexFileName)
+      end
     end
   end
   fileList.sort()
